@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"name": "font",
+			"path": "..\\..\\..\\..\\athlantis\\font"
+		},
+		{
+			"name": "atlantis",
+			"path": "..\\..\\.."
+		},
+		{
+			"path": "..\\..\\..\\..\\pugj"
+		},
+		{
+			"path": "..\\..\\..\\..\\sass_project"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\..\\..\\laragon\\www\\cour-php"
+		}
+	],
+	"settings": {}
+}

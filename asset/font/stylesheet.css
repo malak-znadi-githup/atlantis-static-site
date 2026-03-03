@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Charlemagne Std';
+    src: url('CharlemagneStd-Bold.eot');
+    src: url('CharlemagneStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('CharlemagneStd-Bold.woff2') format('woff2'),
+        url('CharlemagneStd-Bold.woff') format('woff'),
+        url('CharlemagneStd-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-Bold.eot');
+    src: url('Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Gotham-Bold.woff2') format('woff2'),
+        url('Gotham-Bold.woff') format('woff'),
+        url('Gotham-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-Light.eot');
+    src: url('Gotham-Light.eot?#iefix') format('embedded-opentype'),
+        url('Gotham-Light.woff2') format('woff2'),
+        url('Gotham-Light.woff') format('woff'),
+        url('Gotham-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway-Bold.eot');
+    src: url('Raleway-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Raleway-Bold.woff2') format('woff2'),
+        url('Raleway-Bold.woff') format('woff'),
+        url('Raleway-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway-Light.eot');
+    src: url('Raleway-Light.eot?#iefix') format('embedded-opentype'),
+        url('Raleway-Light.woff2') format('woff2'),
+        url('Raleway-Light.woff') format('woff'),
+        url('Raleway-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-Medium.eot');
+    src: url('Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Gotham-Medium.woff2') format('woff2'),
+        url('Gotham-Medium.woff') format('woff'),
+        url('Gotham-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archeologicaps';
+    src: url('Archeologicaps.eot');
+    src: url('Archeologicaps.eot?#iefix') format('embedded-opentype'),
+        url('Archeologicaps.woff2') format('woff2'),
+        url('Archeologicaps.woff') format('woff'),
+        url('Archeologicaps.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway-Regular.eot');
+    src: url('Raleway-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Raleway-Regular.woff2') format('woff2'),
+        url('Raleway-Regular.woff') format('woff'),
+        url('Raleway-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,30 @@
+@import "variables";
+@import "all";
+@import "fonts";
+@import "bootstrap";
+@import "menu";
+@import "footer";
+@import "flexslider";
+@import "apropos";
+@import "footer";
+@import "main";
+
+.flex-control-thumbs li {
+    width: 12.5%;
+}
+body {
+    background-color: #000C15;
+}
+.flexslider {
+    background: #000c15;
+    border: 4px solid #000c15;
+}
+.title-gallerie {
+    color: var(--color-primary);
+    margin-top: 27px;
+    padding-bottom: 12px;
+    font-family: Charlmagne Std;
+    font-size: 60px;
+    text-align: center;
+}
+

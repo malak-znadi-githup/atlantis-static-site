@@ -1,0 +1,81 @@
+// start header 
+/* start header */
+body{
+    background-color: #000c15;
+}
+header{
+    background: url('../asset/img/atlantis/Background.jpg');
+    padding-bottom: 50px;
+    background-size: cover;
+}
+/* container */
+header h1{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 98px;
+    font-family: Archeologicaps;
+    font-weight: normal;
+    color: var(--color-primary);
+}
+header h2{
+    font-size: 38px;
+    font-family: Archeologicaps;
+    font-weight: normal;
+    color: var(--color-primary);
+    margin-bottom: 80px;
+}
+header .owl-carousel .card-text{
+    font-family: Gotham;
+    font-size: 17px;
+    font-weight: 300;
+    color: var(--color-primary);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header .owl-carousel .card-img-overlay{
+    background: linear-gradient(
+        180deg, rgb(121 167 177 / 0%) 0%, rgb(0 0 3 / 0%) 73%, #01111d 100%);
+}
+header .btn-outline-dark:hover{
+    border-color: var(--color-primary);
+}
+header .btn{
+    padding: 25px 28px;
+    margin-top: 120px;
+    font-family: Gotham;
+    font-weight: 600;
+    font-size: 23px;
+    color: var(--color-primary);
+    text-transform: uppercase;
+    border-color: var(--color-primary);
+    border-radius: .5rem;
+    border-width: 4px;
+}
+
+/* ENd header */
+
+
+
+@media screen and (max-width: 576px){
+    header h1{
+        font-size: 27px;
+    }
+    header h2{
+        font-size: 11px;
+    }
+    header .owl-carousel .card-text{
+        font-size: 9px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    header .btn{
+        font-size: 12px;
+        padding: 10px;
+        width: 118px;
+        height: 43px;
+        margin-top: 20px;
+        
+    }
+   
+}

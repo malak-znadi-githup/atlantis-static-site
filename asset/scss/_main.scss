@@ -1,0 +1,124 @@
+$color:#F3E2BA;
+$white:#ffffff;
+$font-size:36px;
+$font-Charlemagne:Charlemagne Std;
+$font-gotham:Gotham;
+body{
+    background-color: #000C15;
+}
+.contact{
+    background: url('../asset/img/actualites/background.png');
+    background-size: cover;
+
+}
+.contact .linear{
+    background: linear-gradient(180deg, #000C15 0%, rgba(0, 12, 21, 0.5) 53.65%, #000C15 100%);
+
+}
+.contact h1{
+    color: $color;
+    font-size: 60px;
+    font-family: $font-Charlemagne;
+    padding-top: 58px;
+}
+.contact .body{
+    padding-bottom: 90px;
+}
+.contact .row .text{
+    padding-left: 48px;
+    margin-top: 70px;
+    
+}
+
+.contact .row .text h2{
+    font-size: 24px;
+    font-family: $font-gotham;
+    font-weight: bold;
+    color: $color;
+    padding-bottom: 40px;
+}
+.contact .row .text p{
+    color: $white;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: $font-gotham;
+    padding-right: 120px;
+}
+.contact .row .formulaire{
+    padding-right: 20px;
+    margin-top: 70px;
+}
+.contact .row input{
+    width: 290px;
+    height: 76px;
+    border-radius: 5px;
+    border: $white solid;
+}
+.contact .row button{
+    color: #c09a78;
+    background-color: $color;
+    width: 629px;
+    height: 70px;
+}
+.contact .row textarea{
+    width: 629px;
+    height: 90px;
+}
+
+@media screen and (max-width: 576px){
+
+    .contact h1{
+        font-size: 20px;
+    }
+    .contact .row .text{
+        padding-left: 10px;
+        margin-top: 20px;
+    }
+    .contact .row .text h2{
+        font-size: 13px;
+        padding: 5px;
+        // padding-right: 3px;
+
+
+    }
+    .contact .row .text p{
+        font-size: 11px;
+        padding-left: 110px;
+        
+        
+    }
+    .contact .row .text{
+        text-align: center;
+    }
+    .contact{
+        background-position:bottom;
+    }
+    .contact .row input{
+        width: 347px;
+        margin: 10px;
+        margin-left: 40px;
+       
+    }
+    .contact .row textarea{
+        width: 347px;
+        height: 160px;
+        margin-left: 40px;
+    }
+    .contact .row button{
+        width: 347px;
+        height: 82px;
+        margin-left: 40px;
+
+    }
+    .contact .formulaire .mody{
+        padding-top: 10px;
+        position: relative;
+        top: -50px;
+        
+    }
+    .contact .formulaire {
+        background-color: #000C15;
+        // margin-bottom: 130px;
+        
+    }
+}

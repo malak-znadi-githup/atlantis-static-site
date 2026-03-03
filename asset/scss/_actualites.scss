@@ -1,0 +1,59 @@
+// start actualites
+$color:#F3E2BA;
+$font-size:36px;
+$font-Charlemagne:Charlemagne Std;
+$font-gotham:Gotham;
+.actualites{
+    background: url('../asset/img/actualites/background.png');
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.actualites h2{
+    color: $color;
+    font-size: $font-size;
+    text-align: center;
+    font-family: $font-Charlemagne;
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+.actualites .owl-carousel {
+    margin-bottom: 150px;
+}
+.actualites .card-text h3{
+    color: $color;
+    font-size: 18px;
+    font-family:$font-gotham; 
+    padding-left: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.actualites .card-text p{
+    color:#FFFFFF;
+    font-size: 13px;
+    font-family: $font-gotham;
+    font-weight: 300;
+    padding-left: 12px;
+}
+
+// end actualites
+
+@media screen and (max-width: 576px){
+
+    .actualites h2{
+        font-size: 18px;
+        margin-bottom: 35px;
+    }
+
+    .actualites{
+        background: none;
+    }
+    .actualites .card-text h3{
+        font-size: 16px;
+    }
+    .actualites .card-text p{
+        font-size: 12px;
+    }
+    .actualites .owl-carousel {
+        margin-bottom: 10px;
+    }
+}

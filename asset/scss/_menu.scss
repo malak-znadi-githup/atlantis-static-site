@@ -1,0 +1,99 @@
+.navbar-dark{
+    background-color: transparent !important;
+}
+.navbar-dark .navbar-toggler {
+    color: rgb(243, 226, 186);
+    border-color: rgb(243, 226, 186)
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgb(243, 226, 186);
+    border-color: rgb(243, 226, 186)
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(243, 226, 186)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar {
+    border-bottom: 1px solid #f3e2ba;
+    padding-bottom: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #f3e2ba;
+    margin: 0px 30px;
+    font-family: 'Charlemagne Std';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.navbar-dark .navbar-nav .show>.nav-link,
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #f3e2ba;
+    margin: 0px 30px;
+    font-family: 'Charlemagne Std';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.url-right {
+    position: absolute;
+    top: 24px;
+    right: 20px;
+}
+
+.url-right li {
+    display: inline-block;
+}
+
+.url-right li:first-of-type {
+    margin: 0 30px;
+}
+
+.url-right li .trait {
+    border-right: 2px solid #f3e2ba;
+}
+
+.url-right li a {
+    color: #f3e2ba;
+    text-align: center;
+    font-weight: bold;
+}
+
+.url-right li a i {
+    color: #f3e2ba;
+    margin: 0 20px;
+    border: solid 1px #f3e2ba;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.url-right li a i:last-of-type {
+    padding: 8px 12px;
+}
+
+
+@media screen and (max-width: 576px){
+    .navbar {
+        border-bottom: none;
+     
+    }
+    .url-right li a i:last-of-type{
+        padding: 5px;
+    }
+    .url-right li a i{
+        margin: 0px 10px;
+    }
+   
+    .navbar-dark .navbar-nav .nav-link{
+        font-size: 12px;
+    }
+    .button{
+        margin-top: 10px;
+    }
+}

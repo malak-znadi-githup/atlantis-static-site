@@ -1,0 +1,54 @@
+
+ .para{
+  font-size: 20px;
+  font-family: 'Gotham';
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: lighter;
+  color:white;
+  
+  }
+
+  .soutiterpro{
+  font-size: 14px;
+  font-family: 'Gotham';
+  font-weight: bold;
+  }
+.grandtitre{
+font-family: 'Archeologicaps';
+font-size: 60px;
+color: #f3e2ba;
+
+}
+.titreapro{
+font-family: 'Archeologicaps';
+font-size: 32px;
+color: #f3e2ba;
+
+}
+
+.apropos{
+  padding-top: 40px;
+background:url(../asset/img/apropos/bg_castle.png) center center fixed no-repeat;
+background-size: cover;
+padding-bottom: 60px;
+}
+
+@media only screen and (max-width:576px){
+  .apropos{
+    background-color: #09141C;
+  }
+  .grandtitre{
+    font-size: 20px;
+  }
+  .para{
+    font-size: 11px;
+  }
+  .titreapro{
+    font-size: 17px;
+  }
+  .soutiterpro{
+    font-size: 7px;
+  }
+
+}

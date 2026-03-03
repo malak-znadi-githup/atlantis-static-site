@@ -1,0 +1,64 @@
+/* start presentation */
+.presentation{
+  background-color: #09141C;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+h2{
+  color: var(--color-primary) !important;
+  font-family: 'Charlemagne Std';
+  font-weight: bold;
+  font-size: 36px;
+  
+}
+.soustitre{
+  padding-top: 31px;
+  padding-bottom:40px;
+  font-family:'Gotham';
+  font-size: 18px;
+  font-weight:bold;
+  color: #ffffff;
+}
+p{
+  font-family:'Gotham';
+  font-size: 10px;
+  // margin-left: 10px;
+  // margin-right: 10px;
+  font-weight:300px;
+  color: white ;
+}
+.parapre{
+  padding-top:20px;
+}
+
+.btn{
+  font-family: 'Gotham';
+  font-size: 24px;
+  background-color: black;
+  font-weight: bold;
+  color: var(--color-primary) ;
+  border: 1px  solid var(--color-primary) ;
+
+  
+}
+/* end presentation */
+@media only screen and (max-width:576px) {
+ h2{
+   font-size: 18px;
+ text-align: center;
+ }
+ .soustitre{
+   font-size: 11px;
+ }
+ p{
+   font-size: 10px;
+ }
+ .btn{
+   font-size: 12px;
+   text-align: center;
+   margin-left: 140px;
+   width: 218px;
+   height: 43px;
+ }
+  }

@@ -1,0 +1,81 @@
+/* start footer */
+$color-title: #F3E2BA;
+$font-text: Gotham;
+$font-title: Charlemagne Std;
+$fontSize-title: 24px;
+$font-size-text: 18px;
+.url {
+    background-color: #09141C;
+    padding-bottom: 30px;
+    h3 {
+        color: $color-title;
+        padding-top: 56px;
+        font-size: $fontSize-title;
+        font-family: $font-title;
+        font-weight: bold;
+        margin-bottom: 23px;
+    }
+    ul a {
+        font-family: $font-text;
+        font-size: $font-size-text;
+        font-weight: 300;
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        margin-bottom: 8px;
+    }
+    .social {
+        display: flex;
+        justify-content: center;
+        margin-top: 43px;
+        align-items: center;
+    }
+    .social i{
+        margin: 0px 20px;
+        font-size: 25px;
+    }
+}
+.newsletter {
+    background-color: #172128;
+   p {
+       color: white;
+       font-family: $font-text;
+       font-size: $font-size-text;
+       font-weight: 300;
+       text-align: right;
+       line-height: 78px;   
+   }
+   input {
+    font-family: $font-text;
+    background-color: #1C1C1C;
+}
+  .input-group {
+       border: 8px solid #2D2D2D;
+       height: 62px;
+       width: 307px;
+       margin: 9px 0px;
+   }
+   .input-group-append button {
+       background-color: #C09A78;
+       width: 80px;
+       height: 46px;
+   }
+   .input-group-append i {
+      width: 50px;
+   }
+   
+}
+.copyright {
+    padding: 39px 0px 61px;
+    background-color: #000C15;
+    p{
+        color: #fff;
+        font-family: $font-text;
+        font-weight: bold; 
+        font-size: bold;  
+       text-align: center;
+    }
+}
+    
+    
+// end footer
