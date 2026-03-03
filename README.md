@@ -3,7 +3,7 @@
 Projet réalisé durant mon stage d’initiation en 2023.
 
 ## Description
-Site web statique présentant un univers mystique autour du thème Atlantis.
+Site web statique présentant un univers mystique autour du thème Atlantis.  
 Projet développé uniquement en front-end.
 
 ## Technologies utilisées
@@ -23,16 +23,17 @@ Améliorer mes compétences en développement front-end et en design responsive.
 
 ## Auteur
 Malake Znadi
+
 ## Screenshots
 
-### Page d'accueil
-![Accueil](img/Accueil.png)
+**Page d'accueil**  
+![Page d'accueil](img/Accueil.png)
 
-### Galerie
+**Galerie**  
 ![Galerie](img/gallery.png)
 
-### Contact
+**Contact**  
 ![Contact](img/contact.png)
 
-### About
-![About](img/About.png)
+**À propos**  
+![À propos](img/About.png)
