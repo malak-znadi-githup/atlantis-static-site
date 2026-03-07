@@ -27,13 +27,13 @@ Malake Znadi
 ## Screenshots
 
 **Page d'accueil**  
-![Page d'accueil](img/Accueil.png)
+![Page d'accueil](./img/Accueil.png)
 
 **Galerie**  
-![Galerie](img/gallery.png)
+![Galerie](./img/gallery.png)
 
 **Contact**  
-![Contact](img/contact.png)
+![Contact](./img/contact.png)
 
 **À propos**  
-![À propos](img/About.png)
+![À propos](./img/About.png)
